@@ -1,92 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>starmoe | love you 3k times</title>
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap-4.4.1.css" rel="stylesheet">
-	  <style>
-		  .btn-link{
-			  position: absolute;
-			  bottom: 10px;
-		  }
-		  .col-sm-6{
-			  position:relative;
-			  /*height:17rem*/
-		  }
-		  ::selection{color:aqua;background-color:deeppink}
-	  </style>
-	    <script src="assets/js/main.js"></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Starmoe</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"> <a class="nav-link" href="detail.html">主页</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="zone.html?user=BroXun">空间</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="comment.html">留言板</a> </li>
-          <li class="nav-item active"> <a class="nav-link" href="about.html">关于本站<span class="sr-only">(current)</span></a> </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 更多 </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="index.html">返回主页</a>
-			<a class="dropdown-item" href="assets/write-temp.html">去写文章</a>
-			<a class="dropdown-item" href="assets/friends.html">友链</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">链接旧的</a> 
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>starmoe | love you 3k times</title>
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap-4.4.1.css" rel="stylesheet">
+  <style>
+    .btn-link {
+      position: absolute;
+      bottom: 10px;
+    }
+
+    .col-sm-6 {
+      position: relative;
+      /*height:17rem*/
+    }
+
+    ::selection {
+      color: aqua;
+      background-color: deeppink
+    }
+  </style>
+  <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Starmoe</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"> <a class="nav-link" href="detail.html">主页</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="zone.html?user=BroXun">空间</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="comment.html">留言板</a> </li>
+        <li class="nav-item active"> <a class="nav-link" href="about.html">关于本站<span
+              class="sr-only">(current)</span></a> </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> 更多 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">返回主页</a>
+            <a class="dropdown-item" href="assets/write-temp.html">去写文章</a>
+            <a class="dropdown-item" href="assets/friends.html">友链</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">链接旧的</a>
+          </div>
+        </li>
+        <li class="nav-item"> <a class="nav-link disabled" href="#">MtF</a> </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <header>
+    <div class="jumbotron text-center">
+      <h1 class="display-4">关于</h1>
+      <hr class="my-4">
+      <p>咱的前世今生</p>
+    </div>
+  </header>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="container text-left">
+          <h3><span style="color:lightblue;">Star</span><span style="color:pink;">moe</span> <span
+              class="badge badge-dark">的小破站</span></h3>
+          <p>之前一直用的某位大佬基于mdui制作的主页，但后来感觉限制越来越多，于是转战bootstrap自己搞。</p>
+          <p>第一次使用bootstrap开发，有很多不是很懂。<del>（合理划水）</del></p>
+          <p>咱曾经也用过Hexo，但是由于设备的局限性原因不得已才放弃了。</p>
+          <p>咱的网站立志坚持完全无后端的模式。<del>（其实是太穷了租不起服务器，能托管php之类的平台又太慢）</del></p>
+          <p>为什么要搞这个站？</p>
+          <p>首先是爱好 其次就是提升自己的能力 再说了能在互联网上拥有属于自己的一片疆土还是很吸引人的，不是吗？</p>
+          <p>最后更新于 2022/05/01 09:14</p>
+          <h3>关于空间</h3>
+          <p>本站空间采用了无后端的动态页面<del>(简单说就是一个穷鬼想搞动态类博客)</del>
+            很多事情(至少以咱目前的水平是无法解决的)，所以不得已使用了一些兼容性不强的方法，因此对于一些老版本浏览器的适配存在很大的问题<del>(难道这就是你偷懒的借口)</del></p>
+          <p>那为什么还要打肿脸充胖子搞动态页面呢？主要还是因为<del>几乎没有什么审查 (大多审查都是针对静态页面的-v-)
+              是真的爽歪歪（不是）。</del>动态页面真的舒服，可以随时随地写东西。Hexo咱之前也用过，但是咱作为学牲，难以在周末以外和电脑打交道，所以只能忍痛放弃 (如果哪位大神知道如何完全脱离电脑写Hexo麻烦教教我
+            跪求)。</p>
+          <p>空间目前一共四个用户：</p>
+          <p>其中三个咱自己使用：</p>
+          <ul>
+            <li>
+              <p>starmoe</p>
+              <p>前两天才创建的，用于分流女权和Trans权益相关的文章</p>
+            </li>
+            <li>
+              <p>BroXun</p>
+              <p>咱最开始使用时创建的账号，发布一些日常想法之类的</p>
+            </li>
+            <li>
+              <p>fd</p>
+              <p>看名字就懂了，用于发布一些<code>见证</code>内容</p>
+            </li>
+          </ul>
+          <p><strong>关于分类冲突</strong> 当一篇文章同时包含多种内容时，按照如下优先级进行分流：</p>
+          <pre><code>日常 &lt; 见证 &lt; 女权 / 跨权
+</code></pre>
+          <p>还有一个游客账号随意使用：<code>用户名visitor 密码123456</code></p>
+          <p>登录在撰写页面。</p>
+          <h4 id="请求写法">请求写法</h4>
+          <pre><code>//domain<span class="hljs-preprocessor">.after</span>/zone<span class="hljs-preprocessor">.html</span>?user=xxx(&amp;tag=xxx)
+</code></pre>
+          <p>其中user是必填项，直接写对应的用户名，tag是为按标签查找功能预留的，你可以直接输入想要搜寻的标签名称，如：</p>
+          <pre><code><span class="hljs-label">https:</span>//blog<span class="hljs-preprocessor">.hydi</span><span class="hljs-preprocessor">.xyz</span>/zone<span class="hljs-preprocessor">.html</span>?user=starmoe&amp;tag=Transgender
+</code></pre>
+          <p>（感谢伟大的GitHub，*.html之类的可以不用写）即：</p>
+          <pre><code><span class="hljs-label">https:</span>//blog<span class="hljs-preprocessor">.hydi</span><span class="hljs-preprocessor">.xyz</span>/zone?user=starmoe&amp;tag=Transgender
+</code></pre>
+          <p>如果你想要有自己的账号，可以联系咱开一个<del>（这破站的账号真的会有人要吗？）</del></p>
+          <p>由于bootstrap有一个监听滚动事件的功能，所以咱下一步准备加入动态目录，等咱下次有时间了就搞罢<del>（没准要等到暑假了）</del></p>
+          <p>最后编辑于 2022/05/02 00:43</p>
+        </div>
+      </div>
+      <footer class="text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>Copyleft 2021-2022 Starmoe. Some Rights Reserved. <br><a rel="license"
+                  href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License"
+                    style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+                <br />This work is licensed under a <a rel="license"
+                  href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 International
+                  License</a>.
+                </br>Powered by Bootstrap.
+              </p>
             </div>
-          </li>
-          <li class="nav-item"> <a class="nav-link disabled" href="#">MtF</a> </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-    <header>
-	<div class="jumbotron text-center">
-	  <h1 class="display-4">关于</h1>
-	  <hr class="my-4">
-	  <p>咱的前世今生</p>
-	</div>
-    </header>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="container text-left">
-            <h3><span style="color:lightblue;">Star</span><span style="color:pink;">moe</span> <span class="badge badge-dark">的小破站</span></h3>
-            <p>之前一直用的某位大佬基于mdui制作的主页，但后来感觉限制越来越多，于是转战bootstrap自己搞。</p>
-		<p>第一次使用bootstrap开发，有很多不是很懂。<del>（合理划水）</del></p>
-		<p>咱曾经也用过Hexo，但是由于设备的局限性原因不得已才放弃了。</p>
-		<p>咱的网站立志坚持完全无后端的模式。<del>（其实是太穷了租不起服务器，能托管php之类的平台又太慢）</del></p>
-		<p>为什么要搞这个站？</p>
-		<p>首先是爱好 其次就是提升自己的能力 再说了能在互联网上拥有属于自己的一片疆土还是很吸引人的，不是吗？</p>
-		<p>最后更新于 2022/05/01 09:14</p>
           </div>
         </div>
-    <footer class="text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <p>Copyleft 2021-2022 Starmoe. Some Rights Reserved. <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-			<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 International License</a>.
-			</br>Powered by Bootstrap.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-	<script src="https://code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
-	<script language="JavaScript" src="http://www.hashemian.com/js/visitorIP.js.php"></script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-    <script src="bootstrap/js/jquery-3.4.1.min.js"></script> 
-    <!-- Include all compiled plugins (below), or include individual files as needed --> 
-    <script src="bootstrap/js/popper.min.js"></script> 
-    <script src="bootstrap/js/bootstrap-4.4.1.js"></script>
-  </body>
+      </footer>
+      <script src="https://code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+      <script language="JavaScript" src="http://www.hashemian.com/js/visitorIP.js.php"></script>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="bootstrap/js/popper.min.js"></script>
+      <script src="bootstrap/js/bootstrap-4.4.1.js"></script>
+</body>
+
 </html>
