@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <title>starmoe | love you 3k times</title>
+    <!-- Bootstrap -->
+    <script src="assets/js/main.js"></script>
+    <link href="bootstrap/css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+	  <style>
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1625701_yqfsv6kz1w9.eot?t=1580804098077'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1625701_yqfsv6kz1w9.eot?t=1580804098077#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+  url('//at.alicdn.com/t/font_1625701_yqfsv6kz1w9.woff?t=1580804098077') format('woff'),
+  url('//at.alicdn.com/t/font_1625701_yqfsv6kz1w9.ttf?t=1580804098077') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1625701_yqfsv6kz1w9.svg?t=1580804098077#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconcoding:before {
+  content: "\e600";
+}
+
+.iconbilibili:before {
+  content: "\e605";
+}
+
+.iconBlog:before {
+  content: "\e60e";
+}
+
+.iconqq:before {
+  content: "\e603";
+}
+
+.iconlinks:before {
+  content: "\e604";
+}
+
+.iconlab:before {
+  content: "\e61e";
+}
+
+.iconmail_fill:before {
+  content: "\e601";
+}
+
+.icongithub:before {
+  content: "\e613";
+}
+
+.iconCommentenable:before {
+  content: "\e7a2";
+}
+
+.iconarticle:before {
+  content: "\e63e";
+}
+
+.icontelegram:before {
+  content: "\e8f8";
+}
+
+.icontwitter-fill:before {
+  content: "\e602";
+}
+		  .btn-link{
+			  position: absolute;
+			  bottom: 10px;
+		  }
+		  .col-sm-6{
+			  position:relative;
+			  /*height:17rem*/
+		  }
+		  ::selection{color:aqua;background-color:deeppink}
+        .waiting {
+            background-color: hotpink;
+            border: 0.25rem solid #ccc;
+            padding: 0.5rem;
+            border-radius: 0.3rem;
+            margin: 0.5rem;
+            font-size: 0.7rem;
+		color:aliceblue;
+        }
+        .single-years-count {
+            line-height: 2.5rem;
+            text-align: center;
+        }
+	  </style>
+  </head>
+  <body onload="single_years();cute_change()">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Starmoe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"> <a class="nav-link" href="detail.html">主页<span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="zone.html?user=BroXun">空间</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="comment.html">留言板</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="about.html">关于本站</a> </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 更多 </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="index.html">返回主页</a>
+			<a class="dropdown-item" href="assets/write-temp.html">去写文章</a>
+			<a class="dropdown-item" href="assets/friends.html">友链</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">链接旧的</a> 
+            </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link disabled" href="#">MtF</a> </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <header>
+	<div class="jumbotron text-center">
+	  <h1 class="display-4">Starmoe (Bro-Xun)</h1>
+	  <p class="lead">不向焦虑与抑郁投降，这个世界终会有我们存在的地方。 <a href="https://mtf.wiki/zh-cn/docs/">From MtF Wiki</a></p>
+	  <hr class="my-4">
+	  <p>欢迎来到咱的小破站。</p>
+	  <a class="btn btn-primary btn-lg" href="https://github.com/bro-xun" role="button" target="_self">My GitHub Page</a>
+	</div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-4 mt-2 text-center">
+            <h2>About me ...</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="container text-left">
+            <h3><span style="color:lightblue;">Star</span><span style="color:pink;">moe</span> <span class="badge badge-info">moegirl</span></h3>
+            <p>Hi 你好啊~</p>
+		<p>是starmoe哦（咱原来用的是Bro-Xun，看GitHub用户名就知道了），江苏的一个普普通通的高中学生<del>（在江苏上学真是罪过）</del></p>
+		<p>咱对IT（我太弱了） 数字电子 生物科技 应用化学感兴趣<del>（头秃爱好）</del></p>
+		<p><del>（是可爱的女孩子哦）</del></p>
+		<p>标签 女权主义者 | T | 建政 | 反出生主义.丁克主义 | 自由派 | ...</p>
+		<p>咱反对 南拳 钕拳 esu 民粹主义 一切性别歧视，不支持二元性别论</p>
+		<p>How lucky to meet you when I'm still alive!</p>
+          </div>
+        </div>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+		      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-2 text-center">
+            <h3>Scores (%)</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <h4>HTML/CSS/JS</h4>
+            <p>20<br>我太逊了。</p>
+            <!--<p><a class="btn btn-link" href="about:blank">View details »</a></p>-->
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h4>PHP</h4>
+            <p>5<br>我超废的了耶。</p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h4>整活</h4>
+            <p>65<br>搞事情什么的岂不快哉？</p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h4>社交</h4>
+            <p>15<br><del>只要和我混熟了，我还是满皮的。</del></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h4>世界</h4>
+            <p>0<br>这个没什么好说的吧。</p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h4>运动</h4>
+            <p>15<br><del>运动什么的真是要人的命呢。</del></p>
+          </div>
+        </div>
+      </div>
+		  </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	<div class="jumbotron">
+	<div class="row">
+	<div class="container text-center">
+		<div class="col-12 mb-2 text-center">
+                <h3 style="margin-bottom:0.5cm">我生活的地方</h3>
+		</div>
+                <a class="btn btn-outline-dark" href="https://github.com/Bro-Xun" target="_blank"><span class="iconfont icongithub"></span>
+                    Github</a> 
+                <a class="btn btn-outline-danger" href="https://space.bilibili.com/2128005979" target="_blank"><span class="iconfont iconbilibili"></span>
+                    Bilibili</a> 
+                <a class="btn btn-outline-primary" href="tencent://message/?uin=0x1ddd1561" target="_blank"><span class="iconfont iconqq"></span>
+                    QQ</a> 
+                <a class="btn btn-outline-primary" href="https://twitter.com/WFA897264" target="_blank"><span class="iconfont icontwitter-fill"></span>
+                Twitter</a> 
+                <a class="btn btn-outline-primary" href="https://t.me/Bro-Xun" target="_blank"><span class="iconfont icontelegram"></span>
+                    Telegram</a> 
+                <a class="btn btn-outline-success" href="mailto:ztzylf12345@163.com" target="_blank"><span class="iconfont iconmail_fill"></span>
+                    Mail</a>
+                <a class="btn btn-outline-success" href="mailto:starmoe@hydi.xyz" target="_blank"><span class="iconfont iconmail_fill"></span>
+                    Mail</a>
+			</div>
+            </div>
+		</div>
+		<div class="jumbotron">
+	<div class="row">
+	<div class="container text-center">
+		<div class="col-12 mb-2 text-center">
+                <h3 style="margin-bottom:0.5cm">Life Timing</h3>
+			</div>
+			</div>
+			<div class="rin-card-content mdui-typo single-years-count text-center" style="width:100%;margin-bottom:0.5cm;">计时中: 已成功保持<span class="waiting">loading...</span>年<span class="waiting">loading...</span>月<span class="waiting">loading...</span>日<span class="waiting">loading...</span>小时<span class="waiting">loading...</span>分<span class="waiting">loading...</span>秒，加油</div>
+			<div style="margin:auto;"><div id="aplayer"></div></div>
+            </div>
+		</div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyleft 2021-2022 Starmoe. Some Rights Reserved. <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+			<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 International License</a>.
+			</br>Powered by Bootstrap.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+	<script src="https://code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+    <script>
+        function single_years() {
+            var time = new Date();
+            var s = time.getTime();
+            s = s - 1131465600000;
+            var ym = formatSeconds(Math.floor(s / 1000));
+            document.getElementsByClassName("waiting")[5].innerHTML = ym[0];
+            document.getElementsByClassName("waiting")[4].innerHTML = ym[1];
+            document.getElementsByClassName("waiting")[3].innerHTML = ym[2];
+            document.getElementsByClassName("waiting")[2].innerHTML = ym[3];
+            document.getElementsByClassName("waiting")[1].innerHTML = ym[4];
+            document.getElementsByClassName("waiting")[0].innerHTML = ym[5];
+        }
+
+        function cute_change() {
+            var years_change = setInterval("single_years()", 1000) //single years changes controller
+        }
+
+        function PrefixInteger(num, length) {
+            return ("0000000000000000" + String(num)).substr(-length);
+        }
+
+        function formatSeconds(value) {
+            var secondTime = parseInt(value);
+            var minuteTime = 0;// 分
+            var hourTime = 0;// 小时
+            var day = 0;// dd
+            var month = 0;// mm
+            var year = 0;// y
+            if (secondTime > 60) {
+                minuteTime = parseInt(secondTime / 60);
+                secondTime = parseInt(secondTime % 60);
+                if (minuteTime > 60) {
+                    hourTime = parseInt(minuteTime / 60);
+                    minuteTime = parseInt(minuteTime % 60);
+                    if (hourTime > 24) {
+                        day = parseInt(hourTime / 24);
+                        hourTime = parseInt(hourTime % 24);
+                        if (day > 30) {
+                            month = parseInt(day / 30);
+                            day = parseInt(day % 30);
+                            if (month > 12) {
+                                year = parseInt(month / 12);
+                                month = parseInt(month % 12);
+
+                            }
+                        }
+                    }
+                }
+            }
+            secondTime = PrefixInteger(secondTime, 2);
+            minuteTime = PrefixInteger(minuteTime, 2);
+            hourTime = PrefixInteger(hourTime, 2);
+            day = PrefixInteger(day, 2);
+            month = PrefixInteger(month, 2);
+            return {
+                0: secondTime,
+                1: minuteTime,
+                2: hourTime,
+                3: day,
+                4: month,
+                5: year
+            };
+        }
+    </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="bootstrap/js/jquery-3.4.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="bootstrap/js/popper.min.js"></script> 
+    <script src="bootstrap/js/bootstrap-4.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="assets/js/aplayer_config.js"></script>
+  </body>
+</html>

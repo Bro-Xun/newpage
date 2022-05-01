@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>starmoe | love you 3k times</title>
+  <!-- Bootstrap -->
+  <script src="assets/js/main.js"></script>
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+  <script src="assets/js/zone.js"></script>
+  <link href="bootstrap/css/bootstrap-4.4.1.css" rel="stylesheet">
+  <style>
+    .btn-link {
+      position: absolute;
+      bottom: 10px;
+    }
+
+    .col-sm-6 {
+      position: relative;
+      height: 17rem
+    }
+
+    ::selection {
+      color: aqua;
+      background-color: deeppink
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Starmoe</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"> <a class="nav-link" href="detail.html">主页</a> </li>
+        <li class="nav-item active"> <a class="nav-link" href="zone.html?user=BroXun">空间</a><span class="sr-only">(current)</span>
+        </li>
+        <li class="nav-item"> <a class="nav-link" href="comment.html">留言板</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="about.html">关于本站</a> </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> 更多 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">返回主页</a>
+            <a class="dropdown-item" href="assets/write-temp.html">去写文章</a>
+            <a class="dropdown-item" href="assets/friends.html">友链</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">链接旧的</a>
+          </div>
+        </li>
+        <li class="nav-item"> <a class="nav-link disabled" href="#">MtF</a> </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container" id="alertplace1">
+
+  </div>
+  <header>
+    <div class="jumbotron">
+      <div class="container indexbk text-center">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center" id="username">Username</h1>
+            <div id="avatar"><img src="https://q1.qlogo.cn/g?b=qq&nk=501028193&s=5" class="rounded mx-auto d-block img-thumbnail" alt="UserAvatar" style="width: 240px; height: 240px;"></div>
+              <a class="btn btn-outline-danger infobar" href="#" role="button" style="display:none;">Exit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mb-4 mt-2 text-center">
+          <h2>Contents (Pinned)</h2>
+          <div id="pincon" class="row">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Example</h5>
+                <p class="card-text">Content Quick View</p>
+                <a href="#" class="btn btn-primary">Its detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12 mb-4 mt-2 text-center">
+          <h2>Contents</h2>
+          <div id="con" class="row">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Example</h5>
+                <p class="card-text">Content Quick View</p>
+                <a href="#" class="btn btn-primary">Its detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Some Function to be added later()-->
+      <!--<div class="container">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination" style="justify-content: center;">
+            <li class="page-item">
+              <a class="page-link" href="javascript:page('-1');" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="javascript:page('+1');" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>-->
+      <!--<div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-8 col-12 mx-auto">
+              <p class="lead">加入我们吧</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-auto mx-auto"> <a class="btn btn-block btn-lg btn-success" href="#" title="" id="submit1">提交简历</a> </div>
+          </div>
+        </div>
+      </div>-->
+      <footer class="text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>Copyleft 2021-2022 Starmoe. Some Rights Reserved. <br><a rel="license"
+                  href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License"
+                    style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+                <br />This work is licensed under a <a rel="license"
+                  href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 International
+                  License</a>.
+                </br>Powered by Bootstrap.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+      <script>
+        AV.init({
+          appId: "AtjKLXsruVYpIWpb73Pt6kQx-gzGzoHsz",
+          appKey: "aWDemfpj3XbDKo2Ry23iIcA1",
+          serverURL: "https://atjklxsr.lc-cn-n1-shared.com"
+        });
+        //const { Query, User } = AV;
+        localStorage.setItem('debug', 'leancloud*');
+      </script>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="bootstrap/js/popper.min.js"></script>
+      <script src="bootstrap/js/bootstrap-4.4.1.js"></script>
+</body>
+
+</html>
