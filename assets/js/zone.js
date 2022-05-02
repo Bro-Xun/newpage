@@ -81,7 +81,7 @@ window.onload = function () {
 					//console.log("s2");
 					p1alert("成功从本地获取用户信息！");
 					document.getElementById("username").innerHTML = userinfo.username;
-					document.getElementById("avatar").src = userinfo.avartar;
+					document.getElementById("avatar").innerHTML = "<img src='" + userinfo.avartar + "' class=\"rounded mx-auto d-block img-thumbnail\" alt=\"UserAvatar\" style=\"width: 240px; height: 240px;\"></img>";
 					page();
 				}
 				//console.log("ss1");
