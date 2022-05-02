@@ -43,7 +43,7 @@ window.onload = function () {
             document.getElementsByClassName("fa-ban")[0].style.color = "red";
         }
         else {
-            document.getElementsByClassName("detailed-info")[0].innerHTML = document.getElementsByClassName("detailed-info")[0].innerHTML.replace("copyrighted", "本文无著作权相关限制");
+            document.getElementsByClassName("detailed-info")[0].innerHTML = document.getElementsByClassName("detailed-info")[0].innerHTML.replace("copyrighted", "本文无著作权相关限制/转载自网络");
             document.getElementsByClassName("fa-ban")[0].style.color = "black";
         }
     }
