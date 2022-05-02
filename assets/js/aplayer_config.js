@@ -20,15 +20,14 @@ const ap = new APlayer({
             lrc: 'assets/lyrics/46.lrc',
             theme: '#ebd0c2'
         },
-
-        {
+        /*{
             name: '落日与晚风',
             artist: 'IN-K&王忻辰&苏星婕',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/落日与晚风.mp3',
             cover: 'https://img4.kuwo.cn/star/albumcover/120/99/97/320349880.jpg',
             lrc: 'assets/lyrics/落日与晚风.lrc',
             theme: '#ebd0c2'
-        },
+        },*/
         {
             name: 'Don\'t Forget',
             artist: 'Toby Fox/Laura Shigihara',
@@ -44,7 +43,7 @@ const ap = new APlayer({
             cover: 'http://p4.music.126.net/oZe-JSuWYAR8zSa29g9g0g==/3254554423361647.jpg',
             theme: '#1502cc'
         },
-		{
+		/*{
             name: '错位时空（女版）',
             artist: '韩可可',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/错位时空（女版）.mp3',
@@ -59,7 +58,7 @@ const ap = new APlayer({
             cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001FNnvf0BP22o.jpg',
             lrc: 'assets/lyrics/浪子闲话.lrc',
             theme: '#ebd0c2'
-        },
+        },*/
 		{
             name: 'Sorry',
             artist: 'Alan Walker/ISAK',
@@ -75,14 +74,14 @@ const ap = new APlayer({
             cover: 'http://p4.music.126.net/oZe-JSuWYAR8zSa29g9g0g==/3254554423361647.jpg',
             theme: '#ebd0c2'
         },
-		{
+		/*{
             name: '所念皆星河',
             artist: '房东的猫',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/所念皆星河.mp3',
             cover: 'http://p4.music.126.net/JtevaRk1N7ecpmwZCIvwzQ==/109951165293262893.jpg',
             lrc: 'assets/lyrics/所念皆星河.lrc',
             theme: '#ff8eb3'
-        },
+        },*/
 		{
             name: '海底',
             artist: '一支榴莲',
@@ -91,14 +90,14 @@ const ap = new APlayer({
             lrc: 'assets/lyrics/海底.lrc',
             theme: '#000000'
         },
-		{
+		/*{
             name: '不再联系',
             artist: '夏天Alex/崔子格',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/不再联系.mp3',
             cover: 'https://img4.kuwo.cn/star/albumcover/120/32/90/1138900336.jpg',
             lrc: 'assets/lyrics/不再联系.lrc',
             theme: '#46718b'
-        },
+        },*/
 		{
             name: 'Apologize',
             artist: 'Besomorph&Anthony',
@@ -114,14 +113,14 @@ const ap = new APlayer({
             cover: 'http://p4.music.126.net/JI9uLRvH629NZ5GZLE06AQ==/2330964650912440.jpg',
             theme: '#5565cc'
         },
-		{
+		/*{
             name: '飞鸟和蝉',
             artist: '任然',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/飞鸟和蝉.mp3',
             cover: 'https://img4.kuwo.cn/star/albumcover/120/87/25/2241738210.jpg',
             lrc: 'assets/lyrics/飞鸟和蝉.lrc',
             theme: '#46718b'
-        },
+        },*/
 		{
             name: '南山南',
             artist: '马頔',
@@ -130,7 +129,7 @@ const ap = new APlayer({
             lrc: 'assets/lyrics/南山南.lrc',
             theme: '#112158'
         },
-		{
+		/*{
             name: '同桌的你',
             artist: '胡夏',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/同桌的你.mp3',
@@ -169,7 +168,7 @@ const ap = new APlayer({
             cover: 'https://img4.kuwo.cn/star/albumcover/120/59/48/3085702005.jpg',
             lrc: 'assets/lyrics/潮汐.lrc',
             theme: '#46718b'
-        },
+        },*/
 		{
             name: '消愁',
             artist: '毛不易',
@@ -185,14 +184,14 @@ const ap = new APlayer({
             cover: 'https://img4.kuwo.cn/star/albumcover/120/54/2/593351098.jpg',
             theme: '#46718b'
         },
-		{
+		/*{
             name: '世界这么大还是遇见你',
             artist: '程响',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/世界这么大还是遇见你.mp3',
             cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003Ls5Jo4EFBIH.jpg',
             lrc: 'assets/lyrics/世界这么大还是遇见你.lrc',
             theme: '#46718b'
-        },
+        },*/
 		{
             name: 'All Time Low',
             artist: 'Sam Tsui/Casey Breves/Kurt Hugo Schneider',
@@ -209,14 +208,14 @@ const ap = new APlayer({
             lrc: 'assets/lyrics/遥远的你.lrc',
             theme: '#ef8525'
         },
-		{
+		/*{
             name: '云与海',
             artist: '阿YueYue',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/云与海.mp3',
             cover: 'https://img4.kuwo.cn/star/albumcover/120/93/74/1831171246.jpg',
             lrc: 'assets/lyrics/云与海.lrc',
             theme: '#46718b'
-        },
+        },*/
 		{
             name: 'Illusionary Daytime',
             artist: 'Shirfine',
@@ -224,7 +223,7 @@ const ap = new APlayer({
             cover: 'https://img4.kuwo.cn/star/albumcover/120/29/63/3855349646.jpg',
             theme: '#4671ff'
         },
-		{
+		/*{
             name: '旧梦一场',
             artist: '阿悠悠',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/旧梦一场.mp3',
@@ -239,7 +238,7 @@ const ap = new APlayer({
             cover: 'https://img4.kuwo.cn/star/albumcover/120/71/63/3774536108.jpg',
             lrc: 'assets/lyrics/TA.lrc',
             theme: '#46718b'
-        },
+        },*/
 		{
             name: '追光者',
             artist: '岑宁儿',
@@ -248,7 +247,7 @@ const ap = new APlayer({
             lrc: 'assets/lyrics/追光者.lrc',
             theme: '#46718b'
         },
-		{
+		/*{
             name: '绿色',
             artist: '陈雪凝',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/绿色.mp3',
@@ -279,7 +278,7 @@ const ap = new APlayer({
             cover: 'https://img4.kuwo.cn/star/albumcover/120/36/9/13515874.jpg',
             lrc: 'assets/lyrics/蒲公英的约定.lrc',
             theme: '#46718b'
-        },
+        },*/
 		{
             name: '青花瓷',
             artist: '周杰伦',
@@ -288,7 +287,7 @@ const ap = new APlayer({
             lrc: 'assets/lyrics/青花瓷.lrc',
             theme: '#46718b'
         },
-		{
+		/*{
             name: '半生雪',
             artist: '七叔',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/半生雪.mp3',
@@ -311,7 +310,7 @@ const ap = new APlayer({
             cover: 'https://img4.kuwo.cn/star/albumcover/120/13/26/3224659704.jpg',
             lrc: 'assets/lyrics/星辰大海.lrc',
             theme: '#46718b'
-        },
+        },*/
 		{
             name: '补习街',
             artist: '郑智化',
@@ -328,7 +327,7 @@ const ap = new APlayer({
             lrc: 'assets/lyrics/最美的期待.lrc',
             theme: '#46718b'
         },
-		{
+		/*{
             name: '十年',
             artist: '陈奕迅',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/十年.mp3',
@@ -343,7 +342,7 @@ const ap = new APlayer({
             cover: 'https://img4.kuwo.cn/star/albumcover/120/1/22/3704634296.jpg',
             lrc: 'assets/lyrics/毕业说分手.lrc',
             theme: '#46718b'
-        },
+        },*/
 		{
             name: 'MEGALOVANIA',
             artist: 'Toby Fox',
@@ -351,7 +350,7 @@ const ap = new APlayer({
             cover: 'https://img4.kuwo.cn/star/albumcover/120/92/8/2593305688.jpg',
             theme: '#46718b'
         },
-		{
+		/*{
             name: '被人',
             artist: '薛之谦',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/被人.mp3',
@@ -406,7 +405,7 @@ const ap = new APlayer({
             cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M0000015qGHu3KjkCl.jpg',
             lrc: 'assets/lyrics/我们的爱.lrc',
             theme: '#46718b'
-        },
+        },*/
 		{
             name: '安和桥（唢呐版）',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/ahq.mp3',
@@ -496,14 +495,14 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/Paris.mp3',
             cover: 'http://p3.music.126.net/h58MkalValADsLZPdhuOwg==/109951164855899615.jpg',
             theme: '#46718b'
-        },{
+        },/*{
             name: '落差',
             artist: 'IN-K',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/落差.mp3',
             cover: 'https://img4.kuwo.cn/star/albumcover/120/1/60/1105455938.jpg',
 			lrc: 'assets/lyrics/落差.lrc',
             theme: '#46718b'
-        },{
+        },*/{
             name: 'Star Sky',
             artist: '',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/ss.mp3',
@@ -515,14 +514,14 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/最后一道大题.mp3',
             cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002bG4Iy3O8rq6.jpg',
             theme: '#46718b'
-        },{
+        },/*{
             name: '阿拉斯加海湾',
             artist: '蓝心羽',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/alsj.mp3',
             cover: 'https://img4.kuwo.cn/star/albumcover/120/58/72/3795397878.jpg',
 			lrc: 'assets/lyrics/alsj.lrc',
             theme: '#46718b'
-        },{
+        },*/{
             name: '风居住的街道',
             artist: '矶村由纪子',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/fjzdjd.mp3',
@@ -541,7 +540,7 @@ const ap = new APlayer({
             cover: 'https://img4.kuwo.cn/star/albumcover/120/90/21/1085920919.jpg',
 			lrc: 'assets/lyrics/mr.lrc',
             theme: '#46718b'
-        },{
+        },/*{
             name: '刚刚好',
             artist: '薛之谦',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/刚刚好.mp3',
@@ -562,7 +561,7 @@ const ap = new APlayer({
             cover: 'https://img4.kuwo.cn/star/albumcover/120/62/78/477539205.jpg',
 			lrc: 'assets/lyrics/迷失幻境.lrc',
             theme: '#46718b'
-        },{
+        },*/{
             name: 'Lemon',
             artist: '米津玄师',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/Lemon.mp3',
@@ -595,7 +594,7 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/sn.mp3',
             cover: 'http://p3.music.126.net/HTBu-4rLoO_lC29h1HVeMg==/109951163821564216.jpg',
             theme: '#46718b'
-        },{
+        },/*{
             name: '爱河（DJ版）',
             artist: '蒋雪儿',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/ah.mp3',
@@ -615,7 +614,7 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/zys.mp3',
 			lrc:'assets/lyrics/zys.lrc',
             theme: '#46718b'
-        },{
+        },*/{
             name: '城南花已开，愿君常安在',
             artist: 'AirJordy',
 			cover:'assets/img/2.jpg',
@@ -734,7 +733,7 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/17.mp3',
 			lrc:'assets/lyrics/17.lrc',
             theme: '#46718b'
-        },{
+        },/*{
             name: '那些年',
             artist: 'Uu',
 			cover:'assets/img/18.jpg',
@@ -748,7 +747,7 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/19.mp3',
 			lrc:'assets/lyrics/19.lrc',
             theme: '#46718b'
-        },{
+        },*/{
             name: 'Nevada',
             artist: 'Vicetone/Cozi Zuehlsdorff',
 			cover:'assets/img/20.jpg',
@@ -769,7 +768,7 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/22.mp3',
 			lrc:'assets/lyrics/22.lrc',
             theme: '#46718b'
-        },{
+        },/*{
             name: 'フリージア',
             artist: 'Uru',
 			cover:'assets/img/23.jpg',
@@ -811,7 +810,7 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/28.mp3',
 			lrc:'assets/lyrics/28.lrc',
             theme: '#46718b'
-        },{
+        },*/{
             name: 'いのちの名前',
             artist: '広橋真紀子',
 			cover:'assets/img/29.jpg',
@@ -825,7 +824,7 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/30.mp3',
 			lrc:'assets/lyrics/30.lrc',
             theme: '#46718b'
-        },{
+        },/*{
             name: '醒不来的梦',
             artist: '回小仙',
 			cover:'assets/img/31.jpg',
@@ -839,14 +838,14 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/32.mp3',
 			lrc:'assets/lyrics/32.lrc',
             theme: '#46718b'
-        },{
+        },*/{
             name: 'lit(var)',
             artist: '牛尾憲輔 (agraph)',
 			cover:'assets/img/33.jpg',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/33.mp3',
 			lrc:'assets/lyrics/33.lrc',
             theme: '#46718b'
-        },{
+        },/*{
             name: '兄弟抱一下',
             artist: '庞龙',
 			cover:'assets/img/34.jpg',
@@ -909,22 +908,22 @@ const ap = new APlayer({
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/42.mp3',
 			lrc:'assets/lyrics/42.lrc',
             theme: '#46718b'
-        },{
+        },*/{
             name: 'There For You',
             artist: '元一',
 			cover:'assets/img/43.jpg',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/43.mp3',
 			lrc:'assets/lyrics/43.lrc',
             theme: '#46718b'
-        },{
+        },/*{
             name: '成都',
             artist: '赵雷',
 			cover:'assets/img/44.jpg',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/44.mp3',
 			lrc:'assets/lyrics/44.lrc',
             theme: '#46718b'
-        },{
-            name: '工具人之歌',
+        },*/{
+            name: '工具人之歌 - 劝世',
             artist: 'Potter King',
 			cover:'assets/img/45.jpg',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/45.mp3',

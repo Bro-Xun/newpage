@@ -36,7 +36,7 @@ window.onload = function () {
 	else {
 		document.getElementById("lgout").style.display = "";
 		document.getElementById("lgin").style.display = "none";
-		document.getElementsByClassName("glyphicon-log-in1")[0].innerHTML = "欢迎" + AV.User.current().attributes.username + "点击退出登录";
+		document.getElementsByClassName("glyphicon-log-in1")[0].innerHTML = " 欢迎" +AV.User.current().attributes.username + "点击退出登录";
 		User = AV.User.current().attributes.username;
 	}
 }
@@ -125,6 +125,7 @@ _rf.onclick = function(){
 }
 
 login.onclick = function () {
+	console.log("1");
 	var userid = document.getElementById("usid").value;
 	var password = document.getElementById("pw").value;
 	if (userid != "") {
@@ -143,7 +144,6 @@ login.onclick = function () {
 	else {
 		alert("give your UserName or Email Address")
 	}
-
 }
 
 document.getElementsByClassName("politics")[0].onclick = function() {
