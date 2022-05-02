@@ -13,6 +13,22 @@ const ap = new APlayer({
     lrcType: 3,
     audio: [
         {
+            name: 'The Internationale',
+            artist: 'Bily Bragg',
+            url: 'https://cdn.jsdelivr.net/gh/Bro-Xun/oldpage@main/assets/music/%E5%9B%BD%E9%99%85%E6%AD%8C%E8%8B%B1%E6%96%87%E7%89%88.mp3',
+            cover: 'assets/img/48.png',
+            lrc: 'assets/lyrics/48.lrc',
+            theme: '#f00'
+        },
+        {
+            name: '大国民',
+            artist: '郑智化',
+            url: 'https://cdn.jsdelivr.net/gh/Bro-Xun/oldpage@main/assets/music/Zheng%20Zhi-Hua%20-%20The%20Great%20Citizen.mp3',
+            cover: 'assets/img/47.png',
+            lrc: 'assets/lyrics/47.lrc',
+            theme: '#000'
+        },
+        {
             name: '杀死那个石家庄人',
             artist: '每日负能量 令人暖心',
             url: 'https://cdn.jsdelivr.net/gh/bro-xun/oldpage/assets/music/46.mp3',
