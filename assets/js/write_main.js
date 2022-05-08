@@ -299,7 +299,8 @@ wtf.onclick = function () {
 	zone.set('tags', tags);
 	zone.set('forward', f11);
 	zone.set('timestamp', Number(save_time));
-	$.getJSON("https://api.ip.sb/jsonip?callback=?",function(json){window.ip = json.ip;});//need improvement
+	//$.getJSON("https://api.ip.sb/jsonip?callback=?",function(json){window.ip = json.ip;});//need improvement
+	//sleep(3000);
 	zone.set('ip',window.ip);
 	zone.set('edit_time', Number(save_time - load_time) + _last_edit_time);
 	//zone.set('',);
@@ -401,4 +402,11 @@ function sup() {
 	content_edit = document.getElementById("content").value;
 	content_edit = content_edit + "<sup></sup>"
 	document.getElementById("content").value = content_edit;
+}
+
+function sleep(delay) {//
+    var start = (new Date()).getTime();
+    while((new Date()).getTime() - start < delay) {
+        continue;
+    }
 }
