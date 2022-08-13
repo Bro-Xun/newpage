@@ -268,13 +268,13 @@
         }
 
         function formatSeconds(value) {
-            var secondTime = parseInt(value);
+            /*var secondTime = parseInt(value);
             var minuteTime = 0;// 分
             var hourTime = 0;// 小时
             var day = 0;// dd
             var month = 0;// mm
-            var year = 0;// y
-            if (secondTime > 60) {
+            var year = 0;// y*/
+            /*if (secondTime > 60) {
                 minuteTime = parseInt(secondTime / 60);
                 secondTime = parseInt(secondTime % 60);
                 if (minuteTime > 60) {
@@ -294,12 +294,14 @@
                         }
                     }
                 }
-            }
-            secondTime = PrefixInteger(secondTime, 2);
-            minuteTime = PrefixInteger(minuteTime, 2);
-            hourTime = PrefixInteger(hourTime, 2);
-            day = PrefixInteger(day, 2);
-            month = PrefixInteger(month, 2);
+            }*/
+	    var gap = new Date(value)
+            var secondTime = gap.getSeconds();
+            var minuteTime = gap.getMinutes();
+            var hourTime = gap.getHours();
+            var day = gap.getDay();
+            var month = gap.getMonth();
+		var year = gap.getFullYear()-1970;
             return {
                 0: secondTime,
                 1: minuteTime,
